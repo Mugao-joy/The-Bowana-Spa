@@ -1,24 +1,35 @@
-import { Link } from 'react-router-dom'
+import React from "react";
+//import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
-        <nav className="nav">
-            <div className="h-10vh flex justify-between lg:py-5 px-20  py -20 border-b">
-                <div className="flex items-center flex-1">
-                    <h2 className="text-3xl font-bold text-pink-500 "> BOWANA </h2>
+        <nav className="bg-gray-800 p-4">
+            <div className="container mx-auto flex justify-between items-center">
+                <div>
+                    <h2 className="text-white text-lg font-bold">BOWANA</h2>
                 </div>
                 <div>
-                    <ul className="flex gap-8 mr-16 text-[18px]">
-                        <Link to = '/'><li>Home</li></Link>
-                        <Link to = '/'><li>Blogs</li></Link>
-                        <Link to = '/'><li>Services</li></Link>
-                        <Link to = '/'><li>Book An Appointment</li></Link>
-                        <Link to = '/'><li>Contact Us</li></Link>
+                    <ul className="flex space-x-4">
+                        <li>
+                            <a href="#" className="text-white hover:text-gray-300">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" className="text-white hover:text-gray-300">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#" className="text-white hover:text-gray-300">Services</a>
+                        </li>
+                        <li>
+                            <a href="#" className="text-white hover:text-gray-300">Book Appointment</a>
+                        </li>
+                        <li>
+                            <a href="#" className="text-white hover:text-gray-300">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-
         </nav>
     )
 }
-export default Navbar
+
+export default Navbar;

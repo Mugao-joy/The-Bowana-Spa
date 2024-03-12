@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
@@ -10,20 +10,20 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul className="flex space-x-4">
-                        <li>
-                            <a href="#" className="text-white hover:text-gray-300">Home</a>
+                    <li>
+                            <Link to="/" className="text-white hover:text-gray-300">Home</Link>
                         </li>
                         <li>
-                            <a href="#" className="text-white hover:text-gray-300">Blogs</a>
+                            <Link to="/blogs" className="text-white hover:text-gray-300">Blogs</Link>
                         </li>
                         <li>
-                            <a href="#" className="text-white hover:text-gray-300">Services</a>
+                            <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
                         </li>
                         <li>
-                            <a href="#" className="text-white hover:text-gray-300">Book Appointment</a>
+                            <Link to="/book-appointment" className="text-white hover:text-gray-300">Book Appointment</Link>
                         </li>
                         <li>
-                            <a href="#" className="text-white hover:text-gray-300">Contact Us</a>
+                            <Link to="/contact-us" className="text-white hover:text-gray-300">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

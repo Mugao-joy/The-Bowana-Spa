@@ -20,7 +20,7 @@ const Navbar = () => {
                             <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
                         </li>
                         <li>
-                            <Link to="/book-appointment" className="text-white hover:text-gray-300">Book Appointment</Link>
+                            <Link to="Booking" className="text-white hover:text-gray-300">Book Appointment</Link>
                         </li>
                         <li>
                             <Link to="/contact-us" className="text-white hover:text-gray-300">Contact Us</Link>

@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Landing from "./components/Landing"
+import Booking from "./components/Booking"
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div className="">
             <Navbar/>{/*navbar*/}
             <Landing/>
+            <Booking/>
         </div>
     )
 }

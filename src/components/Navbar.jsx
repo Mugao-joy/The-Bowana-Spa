@@ -11,16 +11,25 @@ const Navbar = () => {
                 <div>
                     <ul className="flex space-x-4">
                     <li>
-                            <Link to="/" className="text-white hover:text-gray-300">Home</Link>
+                            <Link to="Landing" className="text-white hover:text-gray-300">Home</Link>
                         </li>
                         <li>
                             <Link to="/blogs" className="text-white hover:text-gray-300">Blogs</Link>
                         </li>
                         <li>
                             <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
+                            <ul className="submenu">
+                                <li><span>Waxing</span></li>
+                                <li><span>Massage</span></li>
+                                <li><span>Facial</span></li>
+                            </ul>
                         </li>
                         <li>
                             <Link to="Booking" className="text-white hover:text-gray-300">Book Appointment</Link>
+                            <ul className="submenu">
+                                <li><span>House Call Appointment</span></li>
+                                <li><span>Walk-in Appointment</span></li>
+                            </ul>
                         </li>
                         <li>
                             <Link to="/contact-us" className="text-white hover:text-gray-300">Contact Us</Link>
@@ -32,4 +41,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Navbar

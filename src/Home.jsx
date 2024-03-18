@@ -11,5 +11,5 @@ const Home = () => {
             <Booking/>
         </div>
     )
-}
+    }
 export default Home

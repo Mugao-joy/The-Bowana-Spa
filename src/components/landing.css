@@ -4,14 +4,35 @@
     background-image: url('../src/assets/Background-sorrounding.jpg');
     background-size: cover;
     background-position: center;
+    /*filter: blur(8px); /* Apply blur effect */
 }
 
 .landing-container {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    filter: blur(8px); /*Apply blur effect */
+    background-color: rgba(255, 192, 203, 0.8); /* Pink container with opacity */
+    padding: 60px;/*container size*/
+    border-radius: 10px;
+    text-align: center;
+}
 
+.landing-container h1,
+.landing-container p {
+    margin-bottom: 20px;
+}
+
+.landing-container a {/*button*/
+    background-color: #ff69b4; /* Pink background color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.landing-container a:hover {
+    background-color: #ff5c9a; /* Darker pink on hover */
 }

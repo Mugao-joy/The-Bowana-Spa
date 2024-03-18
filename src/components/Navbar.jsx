@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
-        <nav className="bg-gray-800 p-4">
+        <nav className="bg-gray-800 p-4 fixed w-full z-10 top-0">
             <div className="container mx-auto flex justify-between items-center">
                 <div>
                     <h2 className="text-white text-lg font-bold">BOWANA</h2>

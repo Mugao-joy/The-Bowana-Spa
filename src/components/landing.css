@@ -1,7 +1,8 @@
 .landing-bg {
     position: relative;
     height: 100vh; /* Adjust as needed */
-    background-image: url('../src/assets/Background-sorrounding.jpg');
+    background-image: url('../src/assets/steam-background.jpg');
+    /*background-color: black;*/
     background-size: cover;
     background-position: center;
     /*filter: blur(8px); /* Apply blur effect */

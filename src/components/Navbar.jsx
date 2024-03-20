@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div>
                     <ul className="flex space-x-4">
                     <li>
-                            <Link to="Landing" className="text-white hover:text-gray-300">Home</Link>
+                            <Link to="/" className="text-white hover:text-gray-300">Home</Link>
                         </li>
                         <li>
                             <Link to="/blogs" className="text-white hover:text-gray-300">Blogs</Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li>
-                            <Link to="Booking" className="text-white hover:text-gray-300">Book Appointment</Link>
+                            <Link to="/bookingform" className="text-white hover:text-gray-300">Book Appointment</Link>
                             <ul className="submenu">
                                 <li><span>House Call Appointment</span></li>
                                 <li><span>Walk-in Appointment</span></li>

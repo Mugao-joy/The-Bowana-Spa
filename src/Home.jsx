@@ -9,8 +9,6 @@ const Home = () => {
         <div className="">
             <Navbar/>{/*navbar*/}
             <Landing/>
-            <Booking/>
-            <Services/>
         </div>
     )
     }

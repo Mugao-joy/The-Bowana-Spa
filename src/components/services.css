@@ -1,0 +1,48 @@
+#services {
+    position: relative;
+    background-image: url('../assets/Background-sorrounding.jpg');
+    background-size: cover;
+    background-position: center;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .ServiceCard {
+    position: absolute; /**/
+    top: 50%;
+    transform: translate(-50%, -50%); /* Center the service card */
+    overflow: hidden;
+  }
+  
+  .ServiceCard img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .ServiceCard .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 192, 203, 0.8);
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  
+  .ServiceCard .overlay button {
+    background-color: pink;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ServiceCard .overlay button:hover {
+    background-color: #ff1493; /* Lighter pink color for hover effect */
+  }  

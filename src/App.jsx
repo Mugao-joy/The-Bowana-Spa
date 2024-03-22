@@ -1,5 +1,5 @@
 import Home from './Home';
-import Landing from './components/Landing';
+//import Landing from './components/Landing';
 import './index.css';
 import {
   createBrowserRouter,
@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Services from './components/Services';
 import Booking from './components/Booking';
+import Contact from './components/Contact';
 
 const router = createBrowserRouter([
   {
@@ -16,12 +17,16 @@ const router = createBrowserRouter([
     element: <Home/>,
   },
   {
-    path: "/bookingform",
+    path: '/bookingform',
     element: < Booking/>,
   },
   {
     path: '/services',
     element: <Services/>
+  },
+  {
+    path: 'contact',
+    element: <Contact/>
   }
 ]);
 

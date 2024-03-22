@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -18,21 +18,21 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
-                            <ul className="submenu">
-                                <li><span>Waxing</span></li>
-                                <li><span>Massage</span></li>
-                                <li><span>Facial</span></li>
-                            </ul>
+                                <ul className="submenu">
+                                    <li><span>Waxing</span></li>
+                                    <li><span>Massage</span></li>
+                                    <li><span>Facial</span></li>
+                                </ul>
                         </li>
                         <li>
                             <Link to="/bookingform" className="text-white hover:text-gray-300">Book Appointment</Link>
-                            <ul className="submenu">
-                                <li><span>House Call Appointment</span></li>
-                                <li><span>Walk-in Appointment</span></li>
-                            </ul>
+                                <ul className="submenu">
+                                    <li><span>House Call Appointment</span></li>
+                                    <li><span>Walk-in Appointment</span></li>
+                                </ul>
                         </li>
                         <li>
-                            <Link to="/contact-us" className="text-white hover:text-gray-300">Contact Us</Link>
+                            <Link to="/contact" className="text-white hover:text-gray-300">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

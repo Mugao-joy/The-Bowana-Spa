@@ -10,6 +10,7 @@ import {
 import Services from './components/Services';
 import Booking from './components/Booking';
 import Contact from './components/Contact';
+import Blogs from './components/Blogs';
 
 const router = createBrowserRouter([
   {
